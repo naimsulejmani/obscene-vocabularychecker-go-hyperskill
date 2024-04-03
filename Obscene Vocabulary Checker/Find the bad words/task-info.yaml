@@ -49,7 +49,7 @@ files:
       if __name__ == '__main__':
           CheckerStage1Test().run_tests()
     learner_created: false
-feedback_link: https://hyperskill.org/projects/201/stages/998/implement#comment
+feedback_link: https://hyperskill.org/learn/step/14555#comment
 check_profile: hyperskill_go
 status: Solved
 feedback:

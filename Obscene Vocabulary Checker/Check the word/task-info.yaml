@@ -78,7 +78,7 @@ files:
       if __name__ == '__main__':
           CheckerStage2Test().run_tests()
     learner_created: false
-feedback_link: https://hyperskill.org/projects/201/stages/999/implement#comment
+feedback_link: https://hyperskill.org/learn/step/14556#comment
 check_profile: hyperskill_go
 status: Solved
 feedback:
