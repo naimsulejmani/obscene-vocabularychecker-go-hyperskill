@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: We are only able to add items (key/value pairs) to an initialized map
+  - text: All keys in a map are unique
+  - text: We can update the values of items in a map
+  - text: "We can add items to a map, even if its not initialized"
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17006#comment
+status: Solved
+record: -1
+local_check: false

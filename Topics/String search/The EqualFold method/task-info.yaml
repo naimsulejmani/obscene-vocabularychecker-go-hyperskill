@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: The method ignores spaces between characters
+  - text: The method ignores characters case
+  - text: The method checks if there are any numbers folded in a string
+files:
+  - name: main.go
+    visible: true
+    text: |+
+      // You can experiment here, it won’t be checked
+    
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24787#comment
+status: Solved
+record: -1
+local_check: false

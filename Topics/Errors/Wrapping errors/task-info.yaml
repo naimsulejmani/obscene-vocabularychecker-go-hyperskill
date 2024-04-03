@@ -1,0 +1,39 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: |-
+      package main
+      
+      import (
+          "errors"
+          "fmt"
+      )
+      
+      func brokenMessage() error {
+          // create the main error here - you can use errors.New or fmt.Errorf
+          err := ?
+      
+          // create the wrapped error here using fmt.Errorf and the %w verb
+          wrappedErr := ?
+      
+          return wrappedErr // Do not delete this line!
+      }
+      
+      // DO NOT delete or modify the contents of the main function!
+      func main() {
+          if err := brokenMessage(); err != nil {
+              fmt.Println(err)
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16779#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Passed. Well done! 🏆 - you helped Mr. Krabs 🦀 save a lot of money 💵 on that sign!
+
+    error: can't serve you an ice cream main cause of error: ice cream machine is broken</html>
+  time: "Tue, 02 Apr 2024 22:22:46 UTC"
+record: -1
+submission_language: go

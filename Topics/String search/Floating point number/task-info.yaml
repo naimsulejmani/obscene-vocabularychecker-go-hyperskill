@@ -1,0 +1,33 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: |-
+      package main
+      
+      import (
+          "fmt"
+          "strings"
+      )
+      
+      func main() {
+          var input string
+          fmt.Scan(&input)
+      
+          switch {
+          case strings.?:
+              fmt.Println("comma detected")
+          case ? > 1:
+              fmt.Println("multiple dot symbols")
+          default:
+              fmt.Println("correct")
+          }
+      }
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24788#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Wed, 03 Apr 2024 20:17:39 UTC"
+record: -1
+submission_language: go

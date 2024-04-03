@@ -1,0 +1,24 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    text: "package main\n\nimport (\n\t\"bufio\"\n\t\"fmt\"\n\t\"os\"\n\t\"strings\"\
+    \n)\n\nconst (\n\twesteros = \"Westeros\"\n\tmisteros = \"Misteros\"\n)\n\n//\
+    \ Which function from the `strings` package is used to replace a string?\nfunc\
+    \ wordReplacer(novel, wrong, correct string) string {\n\treturn ?.?(?, ?, ?)\n\
+    }\n\n// DO NOT delete or modify the contents of the main function!\nfunc main()\
+    \ {\n\tscanner := bufio.NewScanner(os.Stdin)\n\tscanner.Scan()\n\tfmt.Println(wordReplacer(scanner.Text(),\
+    \ misteros, westeros))\n}"
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24770#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Passed test #1. Well done! 🥇
+    Passed test #2. Well done! 🥇
+    Passed test #3. Well done! 🥇
+    Passed test #4. Well done! 🥇
+    Passed test #5. Well done! 🥇</html>
+  time: "Wed, 03 Apr 2024 20:33:35 UTC"
+record: -1
+submission_language: go
